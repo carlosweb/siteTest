@@ -1,53 +1,65 @@
 <p align="center">
-  <img src="public/screenshot.png" alt="Screenshot">
+ <a href="https://web3templates.com/?ref=nextly_github_logo">
+ <img src="https://user-images.githubusercontent.com/1884712/132941531-0fdd7acf-47ca-424e-b77f-1fab2e372a37.png" alt="W3T" width="100" height="41"/>
+ </a> 
+ <br>
+ <br>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=24B36B&labelColor=000000" alt="PRs welcome!" />
-  <img alt="License" src="https://img.shields.io/github/license/jkytoela/next-startd?style=for-the-badge&color=24B36B&labelColor=000000">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jkytoela/next-startd?style=for-the-badge&color=24B36B&labelColor=000000">
-</p>
-<br>
+# Nextly - Landing Page Template with Next.js & Tailwind CSS
 
-A free Next.js TypeScript landing page template for SaaS products, online services and more.
+Nextly is a free landing page & marketing website template for  startups and indie projects. Its built with Next.js & TailwindCSS.
+And its completely open-source.
+ 
+![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
 
-<a href="https://next-startd.vercel.app">Live demo</a>
+## How to use
 
-- ⚡ **Next.js** — The React Framework
-- 🔥 **next-seo** — Manage SEO easily
-- 💡 **Twind** — The smallest, fastest, most feature complete Tailwind-in-JS solution in existence
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** — Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 📄 **Commitizen** — Conventional commit messages CLI
-- 🚓 **Commitlint** — Lint commit messages
-- 🖌 **Renovate** — Dependency update tool
-- 🚫 **lint-staged** — Run linters against staged git files
-- 🗂 **Absolute import** — Import folders and files using the `@` prefix
+Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
 
-## 🚀 Getting started
+### 1\. Clone this Repository
 
-If you're logged in, easiest way to get started is to [click here](https://github.com/jkytoela/next-startd/generate).
+```bash
+git clone https://github.com/surjithctly/nextly-template.git
+```
 
-Run the following commands inside the project folder:
+### 2\. Navigate to the directory
 
-1. `yarn`
-2. `yarn dev`
+```
+cd nextly-template
+```
 
-To view the project open `http://localhost:3000`
+### 3\. Install dependencies
+
+```
+yarn install
+# or
+npm install
+```
+
+### 5\. Run Dev Server
+
+```
+yarn dev
+# or
+npm run dev
+```
+
+## Deploy with Vercel
+
+Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template)
 
 
-## 🤝 Contributing
+## Author
 
-1. Fork this repository
-2. Create your branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
+Surjith S M ( [@surjithctly](https://surjithctly.in/) )
 
-Consider contributing to the original TypeScript Starter, which you can find [here](https://github.com/jpedroschmitz).
+---
 
-**After your pull request is merged**, you can safely delete your branch.
+[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
+
+
